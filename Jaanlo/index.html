@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaanlo</title>
+    <link rel="stylesheet" href="static/css/tailwind.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-10">
+        <h1 class="text-4xl font-bold mb-6">Jaanlo</h1>
+        <p class="mb-4">Enter a URL to find out what the company does:</p>
+        <div class="flex items-center mb-6">
+            <input type="text" id="urlInput" class="flex-grow border-2 border-gray-300 rounded-lg p-2 mr-4" placeholder="https://example.com">
+            <button id="submitButton" class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Submit</button>
+        </div>
+        <div id="resultContainer" class="bg-white p-6 rounded-lg shadow-md">
+            <p class="text-gray-500">Company description will appear here...</p>
+        </div>
+    </div>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
